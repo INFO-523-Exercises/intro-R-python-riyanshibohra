@@ -1,12 +1,11 @@
 ---
-title: "exercise1"
+title: "Introduction to R"
+author: "Riyanshi Bohra"
 format: html
 editor: visual
 ---
 
-# Exercise 1- R
-
-## Introduction to R
+# Introduction to R
 
 #### Checking the current version of R:
 
@@ -14,7 +13,7 @@ editor: visual
 R.version
 ```
 
-#### Installing DMwR2 package:
+#### Installing the DMwR2 package:
 
 ```{r}
 install.packages("DMwR2")
@@ -45,7 +44,7 @@ library()
 (.packages())
 ```
 
-#### Installing dbplyr package:
+# Installing the dbplyr package:
 
 ```{r}
 install.packages("dbplyr") 
@@ -98,9 +97,6 @@ help(mean)
 
 ```{r}
 RSiteSearch('neural networks')
-```
-
-```         
 ```
 
 ```{r}
@@ -702,9 +698,6 @@ m3 <- cbind (m1[,1], m2[2,])
 m4 <- cbind (m1[,1], m2[,2])
 ```
 
-```         
-```
-
 ```{r}
 sales <- matrix(c(10, 30, 40, 50, 43, 56, 21, 30), 2, 4, byrow=TRUE)
 colnames(sales) <- c('1qrt', '2qrt', '3qrt', '4qrt')
@@ -752,9 +745,6 @@ dimnames(a)[[3]] <-c("2017", "2018")
 a
 ```
 
-```         
-```
-
 ```{r}
 ar <- array(data     = 1:27,
             dim      = c(3, 3, 3),
@@ -769,9 +759,6 @@ matrix1 <- ar[,,g]
 ```{r}
 matrix1 <- ar[,,'g']
 matrix1
-```
-
-```         
 ```
 
 ```{r}
@@ -1044,18 +1031,6 @@ my.tibble <- tibble(TempCels = sample(-10:40, size=100, replace=TRUE),
 my.tibble
 ```
 
-```         
-```
-
-```         
-```
-
-```         
-```
-
-```         
-```
-
 ```{r}
 install.packages("palmerpenguins")
 ```
@@ -1066,9 +1041,6 @@ data(penguins)
 dim(penguins)
 class(penguins)
 penguins
-```
-
-```         
 ```
 
 ```{r}
